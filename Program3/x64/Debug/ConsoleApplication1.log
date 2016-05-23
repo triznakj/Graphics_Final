@@ -1,0 +1,48 @@
+﻿Build started 10/15/2015 1:53:11 PM.
+     1>Project "C:\Users\triznakj\Desktop\Senior Year\1516a-csse351-triznakj\Program3\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt src\gl3w\gl3w.c src\glew\glew.c
+         glew.c
+         gl3w.c
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt src\main.cpp
+         main.cpp
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\simplePNG.h(189): warning C4267: 'initializing' : conversion from 'size_t' to 'uint16_t', possible loss of data
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\simplePNG.h(215): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\simplePNG.h(332): warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\GLHelper.h(7): warning C4101: 'errString' : unreferenced local variable
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\ShaderManager.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_snprintf'
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\ShaderManager.h(52): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_snprintf'
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\ShaderManager.h(169): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\Model.h(28): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\Model.h(29): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\Model.h(39): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\Model.h(48): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\Model.h(57): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\Model.h(97): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\Model.h(115): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\WorldState.h(42): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\WorldState.h(43): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\RenderEngine.h(81): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\RenderEngine.h(81): warning C4267: 'argument' : conversion from 'size_t' to 'GLint', possible loss of data
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\RenderEngine.h(86): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\RenderEngine.h(91): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\RenderEngine.h(91): warning C4267: 'argument' : conversion from 'size_t' to 'GLint', possible loss of data
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\RenderEngine.h(99): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\RenderEngine.h(99): warning C4267: 'argument' : conversion from 'size_t' to 'GLint', possible loss of data
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\RenderEngine.h(106): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>c:\users\triznakj\desktop\senior year\1516a-csse351-triznakj\program3\src\RenderEngine.h(106): warning C4267: 'argument' : conversion from 'size_t' to 'GLint', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\triznakj\Desktop\Senior Year\1516a-csse351-triznakj\Program3\x64\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO "sfml-window.lib" "sfml-system.lib" opengl32.lib winmm.lib gdi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\triznakj\Desktop\Senior Year\1516a-csse351-triznakj\Program3\x64\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\triznakj\Desktop\Senior Year\1516a-csse351-triznakj\Program3\x64\Debug\ConsoleApplication1.lib" /MACHINE:X64 x64\Debug\gl3w.obj
+         x64\Debug\glew.obj
+         x64\Debug\main.obj
+         ConsoleApplication1.vcxproj -> C:\Users\triznakj\Desktop\Senior Year\1516a-csse351-triznakj\Program3\x64\Debug\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\triznakj\Desktop\Senior Year\1516a-csse351-triznakj\Program3\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.57

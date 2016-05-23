@@ -1,0 +1,21 @@
+﻿Build started 11/3/2015 2:04:31 PM.
+     1>Project "C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Transparency\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt src\main.cpp
+         main.cpp
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\transparency\src\Model.h(249): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\transparency\src\RenderEngine.h(228): warning C4267: 'argument' : conversion from 'size_t' to 'GLint', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Transparency\x64\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" opengl32.lib winmm.lib gdi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Transparency\x64\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Transparency\x64\Debug\ConsoleApplication1.lib" /MACHINE:X64 x64\Debug\gl3w.obj
+         x64\Debug\glew.obj
+         x64\Debug\main.obj
+         x64\Debug\list.obj
+         x64\Debug\objLoader.obj
+         x64\Debug\obj_parser.obj
+         x64\Debug\string_extra.obj
+         ConsoleApplication1.vcxproj -> C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Transparency\x64\Debug\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Transparency\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.30

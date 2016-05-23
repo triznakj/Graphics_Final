@@ -1,0 +1,46 @@
+﻿Build started 11/11/2015 11:42:35 PM.
+     1>Project "C:\Users\triznakj\Desktop\1516a-csse351-triznakj\MultipleModels\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt src\main.cpp
+         main.cpp
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\Model.h(81): warning C4267: 'argument' : conversion from 'size_t' to 'glm::tvec4<float,0>::length_type', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\Model.h(81): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\Model.h(82): warning C4267: 'argument' : conversion from 'size_t' to 'glm::tvec4<float,0>::length_type', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\Model.h(82): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\Model.h(83): warning C4267: 'argument' : conversion from 'size_t' to 'glm::tvec4<float,0>::length_type', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\Model.h(83): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\Model.h(84): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\Model.h(148): warning C4267: 'argument' : conversion from 'size_t' to 'glm::tvec3<float,0>::length_type', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\Model.h(148): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\Model.h(163): warning C4267: 'argument' : conversion from 'size_t' to 'glm::tvec3<float,0>::length_type', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\Model.h(163): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\Model.h(172): warning C4267: 'argument' : conversion from 'size_t' to 'glm::tvec2<float,0>::length_type', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\Model.h(172): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\Model.h(262): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\WorldState.h(186): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\RenderEngine.h(147): warning C4244: 'argument' : conversion from 'const int' to 'GLfloat', possible loss of data
+     1>src\main.cpp(130): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(131): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(132): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(133): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(144): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(145): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(156): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(157): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(166): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\main.cpp(167): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\multiplemodels\src\model.h(51): warning C4715: 'Material::operator=' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\triznakj\Desktop\1516a-csse351-triznakj\MultipleModels\x64\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO "sfml-window.lib" "sfml-system.lib" opengl32.lib winmm.lib gdi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\triznakj\Desktop\1516a-csse351-triznakj\MultipleModels\x64\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\triznakj\Desktop\1516a-csse351-triznakj\MultipleModels\x64\Debug\ConsoleApplication1.lib" /MACHINE:X64 x64\Debug\gl3w.obj
+         x64\Debug\glew.obj
+         x64\Debug\main.obj
+         x64\Debug\list.obj
+         x64\Debug\objLoader.obj
+         x64\Debug\obj_parser.obj
+         x64\Debug\string_extra.obj
+         ConsoleApplication1.vcxproj -> C:\Users\triznakj\Desktop\1516a-csse351-triznakj\MultipleModels\x64\Debug\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\triznakj\Desktop\1516a-csse351-triznakj\MultipleModels\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34

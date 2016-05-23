@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF8B43801B97FA77005AB0AE /* glew.c in Sources */ = {isa = PBXBuildFile; fileRef = AF8B437B1B97FA77005AB0AE /* glew.c */; };
+		AF8B43811B97FA77005AB0AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF8B437F1B97FA77005AB0AE /* main.cpp */; };
+		AFB3E0D81B97A8E9004F3018 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB3E0D71B97A8E9004F3018 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF8B437B1B97FA77005AB0AE /* glew.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glew.c; sourceTree = "<group>"; };
+		AF8B437C1B97FA77005AB0AE /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		AF8B437D1B97FA77005AB0AE /* glxew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glxew.h; sourceTree = "<group>"; };
+		AF8B437E1B97FA77005AB0AE /* wglew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wglew.h; sourceTree = "<group>"; };
+		AF8B437F1B97FA77005AB0AE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AFB3E07D1B979AAA004F3018 /* SFMLApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SFMLApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB3E0D71B97A8E9004F3018 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB3E07B1B979AAA004F3018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB3E0D81B97A8E9004F3018 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF8B43791B97FA77005AB0AE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AF8B437A1B97FA77005AB0AE /* glew */,
+				AF8B437F1B97FA77005AB0AE /* main.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		AF8B437A1B97FA77005AB0AE /* glew */ = {
+			isa = PBXGroup;
+			children = (
+				AF8B437B1B97FA77005AB0AE /* glew.c */,
+				AF8B437C1B97FA77005AB0AE /* glew.h */,
+				AF8B437D1B97FA77005AB0AE /* glxew.h */,
+				AF8B437E1B97FA77005AB0AE /* wglew.h */,
+			);
+			path = glew;
+			sourceTree = "<group>";
+		};
+		AFB3E0751B979AA9004F3018 = {
+			isa = PBXGroup;
+			children = (
+				AF8B43791B97FA77005AB0AE /* src */,
+				AFB3E0D71B97A8E9004F3018 /* OpenGL.framework */,
+				AFB3E07E1B979AAA004F3018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB3E07E1B979AAA004F3018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB3E07D1B979AAA004F3018 /* SFMLApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB3E07C1B979AAA004F3018 /* SFMLApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB3E0891B979AAA004F3018 /* Build configuration list for PBXNativeTarget "SFMLApp" */;
+			buildPhases = (
+				AFB3E07A1B979AAA004F3018 /* Sources */,
+				AFB3E07B1B979AAA004F3018 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFMLApp;
+			productName = GLVersion;
+			productReference = AFB3E07D1B979AAA004F3018 /* SFMLApp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB3E0761B979AA9004F3018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Micah Taylor";
+				TargetAttributes = {
+					AFB3E07C1B979AAA004F3018 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = AFB3E0791B979AA9004F3018 /* Build configuration list for PBXProject "SFMLApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFB3E0751B979AA9004F3018;
+			productRefGroup = AFB3E07E1B979AAA004F3018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB3E07C1B979AAA004F3018 /* SFMLApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB3E07A1B979AAA004F3018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8B43811B97FA77005AB0AE /* main.cpp in Sources */,
+				AF8B43801B97FA77005AB0AE /* glew.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFB3E0871B979AAA004F3018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		AFB3E0881B979AAA004F3018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		AFB3E08A1B979AAA004F3018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = SFMLApp;
+			};
+			name = Debug;
+		};
+		AFB3E08B1B979AAA004F3018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = SFMLApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB3E0791B979AA9004F3018 /* Build configuration list for PBXProject "SFMLApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB3E0871B979AAA004F3018 /* Debug */,
+				AFB3E0881B979AAA004F3018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB3E0891B979AAA004F3018 /* Build configuration list for PBXNativeTarget "SFMLApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB3E08A1B979AAA004F3018 /* Debug */,
+				AFB3E08B1B979AAA004F3018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFB3E0761B979AA9004F3018 /* Project object */;
+}

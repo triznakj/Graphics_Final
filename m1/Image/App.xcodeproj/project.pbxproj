@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF8B43811B97FA77005AB0AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF8B437F1B97FA77005AB0AE /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF1C77471B99292F00894109 /* Colorer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Colorer.h; sourceTree = "<group>"; };
+		AF1C77481B992A0E00894109 /* rgb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rgb.h; sourceTree = "<group>"; };
+		AF1C77491B992E8600894109 /* simplePNG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simplePNG.h; sourceTree = "<group>"; };
+		AF1C774A1B9931E900894109 /* ImageBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageBuilder.h; sourceTree = "<group>"; };
+		AF8B437F1B97FA77005AB0AE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AFB3E07D1B979AAA004F3018 /* App */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = App; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB3E07B1B979AAA004F3018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF8B43791B97FA77005AB0AE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AF1C774A1B9931E900894109 /* ImageBuilder.h */,
+				AF1C77471B99292F00894109 /* Colorer.h */,
+				AF1C77491B992E8600894109 /* simplePNG.h */,
+				AF1C77481B992A0E00894109 /* rgb.h */,
+				AF8B437F1B97FA77005AB0AE /* main.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		AFB3E0751B979AA9004F3018 = {
+			isa = PBXGroup;
+			children = (
+				AF8B43791B97FA77005AB0AE /* src */,
+				AFB3E07E1B979AAA004F3018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB3E07E1B979AAA004F3018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB3E07D1B979AAA004F3018 /* App */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB3E07C1B979AAA004F3018 /* App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB3E0891B979AAA004F3018 /* Build configuration list for PBXNativeTarget "App" */;
+			buildPhases = (
+				AFB3E07A1B979AAA004F3018 /* Sources */,
+				AFB3E07B1B979AAA004F3018 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = App;
+			productName = GLVersion;
+			productReference = AFB3E07D1B979AAA004F3018 /* App */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB3E0761B979AA9004F3018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Micah Taylor";
+				TargetAttributes = {
+					AFB3E07C1B979AAA004F3018 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = AFB3E0791B979AA9004F3018 /* Build configuration list for PBXProject "App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFB3E0751B979AA9004F3018;
+			productRefGroup = AFB3E07E1B979AAA004F3018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB3E07C1B979AAA004F3018 /* App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB3E07A1B979AAA004F3018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8B43811B97FA77005AB0AE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFB3E0871B979AAA004F3018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(_SYSTEM)",
+					"$(_WINDOW)",
+					"$(_GRAPHICS)",
+					"$(_AUDIO)",
+					"$(_NETWORK)",
+				);
+				SUPPORTED_PLATFORMS = macosx;
+				_AUDIO = "";
+				_BINARY_TYPE = FRAMEWORKS;
+				_GRAPHICS = "";
+				_LINK_DYLIBS_PREFIX = "-l";
+				_LINK_DYLIBS_SUFFIX = "";
+				_LINK_FRAMEWORKS_PREFIX = "-framework";
+				_LINK_FRAMEWORKS_SUFFIX = "";
+				_LINK_PREFIX = "$(_LINK_$(_BINARY_TYPE)_PREFIX)";
+				_LINK_SUFFIX = "$(_LINK_$(_BINARY_TYPE)_SUFFIX)";
+				_NETWORK = "";
+				_SYSTEM = "$(_LINK_PREFIX) sfml-system$(_LINK_SUFFIX)";
+				_WINDOW = "$(_LINK_PREFIX) sfml-window$(_LINK_SUFFIX)";
+			};
+			name = Debug;
+		};
+		AFB3E0881B979AAA004F3018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(_SYSTEM)",
+					"$(_WINDOW)",
+					"$(_GRAPHICS)",
+					"$(_AUDIO)",
+					"$(_NETWORK)",
+				);
+				SUPPORTED_PLATFORMS = macosx;
+				_AUDIO = "";
+				_BINARY_TYPE = FRAMEWORKS;
+				_GRAPHICS = "";
+				_LINK_DYLIBS_PREFIX = "-l";
+				_LINK_DYLIBS_SUFFIX = "";
+				_LINK_FRAMEWORKS_PREFIX = "-framework";
+				_LINK_FRAMEWORKS_SUFFIX = "";
+				_LINK_PREFIX = "$(_LINK_$(_BINARY_TYPE)_PREFIX)";
+				_LINK_SUFFIX = "$(_LINK_$(_BINARY_TYPE)_SUFFIX)";
+				_NETWORK = "";
+				_SYSTEM = "$(_LINK_PREFIX) sfml-system$(_LINK_SUFFIX)";
+				_WINDOW = "$(_LINK_PREFIX) sfml-window$(_LINK_SUFFIX)";
+			};
+			name = Release;
+		};
+		AFB3E08A1B979AAA004F3018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = App;
+			};
+			name = Debug;
+		};
+		AFB3E08B1B979AAA004F3018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB3E0791B979AA9004F3018 /* Build configuration list for PBXProject "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB3E0871B979AAA004F3018 /* Debug */,
+				AFB3E0881B979AAA004F3018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB3E0891B979AAA004F3018 /* Build configuration list for PBXNativeTarget "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB3E08A1B979AAA004F3018 /* Debug */,
+				AFB3E08B1B979AAA004F3018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFB3E0761B979AA9004F3018 /* Project object */;
+}

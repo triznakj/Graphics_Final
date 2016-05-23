@@ -1,0 +1,77 @@
+﻿Build started 10/30/2015 1:58:32 PM.
+     1>Project "C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Particles\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt src\main.cpp
+         main.cpp
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\WorldState.h(177): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\RenderEngine.h(56): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\RenderEngine.h(66): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\RenderEngine.h(102): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\RenderEngine.h(127): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\RenderEngine.h(135): warning C4267: '=' : conversion from 'size_t' to 'GLuint', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\RenderEngine.h(142): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\RenderEngine.h(146): warning C4267: '=' : conversion from 'size_t' to 'GLuint', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\RenderEngine.h(156): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\RenderEngine.h(360): warning C4267: 'argument' : conversion from 'size_t' to 'GLuint', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\RenderEngine.h(373): warning C4267: '=' : conversion from 'size_t' to 'GLuint', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\RenderEngine.h(380): warning C4267: '=' : conversion from 'size_t' to 'GLuint', possible loss of data
+     1>src\main.cpp(120): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(121): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(122): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(123): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(134): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(146): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(147): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\main.cpp(160): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\main.cpp(161): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\Model.h(141): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned int', possible loss of data
+                 c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\Model.h(25) : see reference to function template instantiation 'void Model::addAttr<std::vector<GLuint,std::allocator<char32_t>>,size_t>(Container &,Value)' being compiled
+                 with
+                 [
+                     Container=std::vector<GLuint,std::allocator<char32_t>>
+         ,            Value=size_t
+                 ]
+     1>c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\Model.h(141): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\Model.h(148) : see reference to function template instantiation 'void Model::addAttr<Container,int>(Container &,Value)' being compiled
+                 with
+                 [
+                     Container=std::vector<GLfloat,std::allocator<GLfloat>>
+         ,            Value=int
+                 ]
+                 c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\Model.h(148) : see reference to function template instantiation 'void Model::addAttr<Container,T,int>(Container &,Value,int)' being compiled
+                 with
+                 [
+                     Container=std::vector<GLfloat,std::allocator<GLfloat>>
+         ,            T=float
+         ,            Value=float
+                 ]
+                 c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\Model.h(148) : see reference to function template instantiation 'void Model::addAttr<Container,T,T,int>(Container &,Value,T,int)' being compiled
+                 with
+                 [
+                     Container=std::vector<GLfloat,std::allocator<GLfloat>>
+         ,            T=float
+         ,            Value=float
+                 ]
+                 c:\users\triznakj\desktop\1516a-csse351-triznakj\particles\src\Model.h(28) : see reference to function template instantiation 'void Model::addAttr<std::vector<GLfloat,std::allocator<_Ty>>,T,T,T,int>(Container &,Value,T,T,int)' being compiled
+                 with
+                 [
+                     _Ty=GLfloat
+         ,            T=float
+         ,            Container=std::vector<GLfloat,std::allocator<GLfloat>>
+         ,            Value=float
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Particles\x64\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO "sfml-window.lib" "sfml-system.lib" opengl32.lib winmm.lib gdi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Particles\x64\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Particles\x64\Debug\ConsoleApplication1.lib" /MACHINE:X64 x64\Debug\gl3w.obj
+         x64\Debug\glew.obj
+         x64\Debug\main.obj
+         x64\Debug\list.obj
+         x64\Debug\objLoader.obj
+         x64\Debug\obj_parser.obj
+         x64\Debug\string_extra.obj
+         ConsoleApplication1.vcxproj -> C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Particles\x64\Debug\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Particles\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.24

@@ -1,0 +1,48 @@
+# This make file will compile all .cpp and .c files in the directory. Be aware, the C++ compiler is used for both C and C++ files. Resulting objects are then linked into a single executable.
+
+# make settings
+NEWLINE = @echo ""
+
+# compile settings
+CXX?=g++
+LINK=g++
+PROGRAM=a.out
+DEL=rm -rf
+LIBS=-lm
+WARN=-w
+OP=-O0
+FLAGS= $(WARN) $(OP)
+
+# setup object list
+LOCAL_CPP_OBJECTS= $(patsubst %.cpp, %.o, $(wildcard ./src/*.cpp))
+LOCAL_C_OBJECTS= $(patsubst %.c, %.o, $(wildcard ./src/*.c))
+OBJECTS=$(LOCAL_C_OBJECTS) $(LOCAL_CPP_OBJECTS)
+
+# make targets
+makeall:
+	make $(PROGRAM)
+	$(NEWLINE)
+
+$(PROGRAM): $(OBJECTS) 
+	@echo "--$(PROGRAM)--"
+	$(LINK) $(FLAGS) $(OBJECTS) $(LIBS) -o $(PROGRAM)
+
+%.o: %.cpp
+	@echo "--$@--"
+	$(CXX) -c $(FLAGS) $< $(LIBS) -o $@
+	$(NEWLINE)
+
+%.o: %.c
+	@echo "--$@--"
+	$(CXX) -c $(FLAGS) $< $(LIBS) -o $@
+	$(NEWLINE)
+
+# clean
+.PHONEY: clean
+clean:
+	$(DEL) $(OBJECTS)
+
+.PHONEY: cleanall
+cleanall:
+	$(DEL) $(OBJECTS)
+	$(DEL) $(PROGRAM)

@@ -1,0 +1,21 @@
+﻿Build started 9/15/2015 10:36:40 PM.
+     1>Project "C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Program2\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         ConsoleApplication1.vcxproj -> C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Program2\x64\Release\ConsoleApplication1.exe
+       CustomBuildStep:
+         mkdir C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Program2\\Shaders
+         xcopy /Y C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Program2\..\Shaders C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Program2\\Shaders\
+         
+         :VCEnd
+         A subdirectory or file C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Program2\\Shaders already exists.
+         File not found - Shaders
+         0 File(s) copied
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(202,5): error MSB3073: The command "mkdir C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Program2\\Shaders
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(202,5): error MSB3073: xcopy /Y C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Program2\..\Shaders C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Program2\\Shaders\
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(202,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(202,5): error MSB3073: :VCEnd" exited with code 4.
+     1>Done Building Project "C:\Users\triznakj\Desktop\1516a-csse351-triznakj\Program2\ConsoleApplication1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.07
